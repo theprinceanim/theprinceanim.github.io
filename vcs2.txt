@@ -1,2 +1,0 @@
-This is a text file2
-This is the next line in file2
