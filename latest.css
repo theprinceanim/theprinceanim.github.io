@@ -20,6 +20,9 @@ body
 	font:bold;
 	font-family:'Libre Baskerville', serif, bold;
 }
+#eman{
+	width: 50em;
+}
 .img
 {	
 	border-radius:30px;
@@ -41,13 +44,13 @@ body
 {	
 	background-image: url('img/background2.png');
 	width: auto;
-	min-height: 680px;
+	min-height: 1000px;
 	margin-right: 0px;
 	margin-left: 0px;
 }
 #icon
 {
-	font-size: 25;
+	/*font-size: 25;**/
 	color: #AF9759;
 }
 .shift1
@@ -59,9 +62,63 @@ body
 	font:bold;
 	font-family:'Libre Baskerville', serif;
 }
+.subm
+{
+	padding-top: 3%;
+}
+#abme
+{
+	background-color: white;
+	font-family: 'Oswald', sans-serif;
+}
+#iam
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+#bodrad
+{
+	border-top-right-radius: 100em;
+	border-bottom-right-radius: 100em;
+	float: left;
+}
+#quote
+{
+	display: inline;
+	margin-left: 10%;
+	color: transparent;
+}
+#meme
+{
+	color: white;
+	font-size: 15px;
+}
+#mane
+{
+	color: white;
+}
+#drop
+{
+	padding-top: 8%;
+	font-family: 'Oswald';
+	font-size: 30px;
+	color: white;
+}
+#ava{
+	font-size: 25px;
+	color: #FBFCFC;
+	font-family: 'Oswald';
+}
 #div1
 {
-	padding-left:5%;
+	padding-left:0%;
+}
+#tech
+{
+	
+	color: white;
+	font-size: 15px;
 }
 .personal
 {
@@ -86,7 +143,7 @@ body
 {
 	background-image: url("img/back3.jpg");
 	width: auto;
-	height: 650px;
+	min-height: 1000px;
 	margin-right: 0px;
 	margin-left: 0px;
 	background-repeat: no-repeat;
@@ -121,6 +178,14 @@ body
 {
 	background-color: none;
 }
+#mod
+{
+	padding-top: 30%;
+	color: white;
+	font-size: 65px;
+}
+
+
 @media (max-width: 768px) {
    .navbar-collapse {
     border-top: 0;
